@@ -20,8 +20,8 @@ class BoxCard extends Component {
           }
         >
           <div style={{ position: 'relative' }}>
-            <PanThumb image={avatar} className="panThumb" />
-            <Mallki className="mallki-text" text="难凉热血" />
+            {/* <PanThumb image={avatar} className="panThumb" /> */}
+            {/* <Mallki className="mallki-text" text="难凉热血" /> */}
             <div style={{paddingTop:"35px"}} className="progress-item">
               <span>Vue</span>
               <Progress percent={70} />

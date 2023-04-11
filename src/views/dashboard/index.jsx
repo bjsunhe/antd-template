@@ -37,41 +37,9 @@ const Dashboard = () => {
 
   return (
     <div className="app-container">
-      <a
-        href="https://github.com/NLRX-WJC/react-antd-admin-template"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-corner"
-      ></a>
-
-      <PanelGroup handleSetLineChartData={handleSetLineChartData} />
-
-      <LineChart
-        chartData={lineChartData}
-        styles={{
-          padding: 12,
-          backgroundColor: "#fff",
-          marginBottom: "25px",
-        }}
-      />
-
-      <Row gutter={32}>
-        <Col xs={24} sm={24} lg={8}>
-          <div className="chart-wrapper">
-            <RaddarChart />
-          </div>
-        </Col>
-        <Col xs={24} sm={24} lg={8}>
-          <div className="chart-wrapper">
-            <PieChart />
-          </div>
-        </Col>
-        <Col xs={24} sm={24} lg={8}>
-          <div className="chart-wrapper">
-            <BarChart />
-          </div>
-        </Col>
-      </Row>
+      
+      
+      
 
       <Row gutter={8}>
         <Col

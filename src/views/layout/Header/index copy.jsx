@@ -46,7 +46,15 @@ const LayoutHeader = (props) => {
       <Menu.Item key="dashboard">
         <Link to="/dashboard">首页</Link>
       </Menu.Item>
-      
+      <Menu.Item key="project">
+        <a
+          target="_blank"
+          href="https://github.com/NLRX-WJC/react-antd-admin-template"
+          rel="noopener noreferrer"
+        >
+          项目地址
+        </a>
+      </Menu.Item>
       <Menu.Divider />
       <Menu.Item key="logout">注销</Menu.Item>
     </Menu>
@@ -83,6 +91,7 @@ const LayoutHeader = (props) => {
         <BreadCrumb />
         <div className="right-menu">
           <FullScreen />
+          {showSettings ? <Settings /> : null}
           <div className="dropdown-wrap">
             <Dropdown overlay={menu}>
               <div>

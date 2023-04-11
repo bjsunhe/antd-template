@@ -15,7 +15,7 @@ const Main = (props) => {
         <Header />
         {tagsView ? <TagsView /> : null}
         <Content />
-        <RightPanel />
+        {/* <RightPanel /> */}
       </Layout>
     </Layout>
   );
